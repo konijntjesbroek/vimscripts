@@ -7,7 +7,7 @@ My collection of vim scripts, in particular neovim
 ### Installation
 backup your existing init.vim, clone the archive and copy into the config
 directory.
-``bash
+```bash
 cp ~/.config/nvim/init.vim ~/.config/nvim/init.vim.bkp
 git clone https://github.com/konijntjesbroek/vimscripts
 cd vimscripts
