@@ -64,10 +64,11 @@ inoremap <leader>ft <esc>:set ts=8<cr>:set shiftwidth=8<cr>i
 "== --- === --- === --- === --- === --- === --- === --- === --- === --- === ---
 inoremap <leader>tn <esc>:set number!<cr>i
 inoremap <leader>date <esc>:call setline(".", getline(".") . strftime("%Y.%m.%d"))<CR>A
-inoremap <leader>now <esc>:call setline(".", getline(".") . strftime("%Y.%m.%d	%H%M%S"))<CR>A
-inoremap <leader>time <esc>:call setline(".", getline(".") . strftime("            %H%M%S"))<CR>A
+inoremap <leader>now <esc>:call setline(".", getline(".") . strftime("%Y.%m.%d	%H%M"))<CR>A
+inoremap <leader>time <esc>:call setline(".", getline(".") . strftime("%H%M%S"))<CR>A
 
 inoremap <leader>vs <esc><c-w>v<c-w>w10<c-w><
+
 set ts=4
 set shiftwidth=4
 set expandtab

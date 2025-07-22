@@ -1,5 +1,9 @@
-2021-07-21 0054 Created project and copied in templat
-           0105 Added plan and readme, copied in init.vim
-2021-10-27 2105 Started filetype specific bindings.
-2021-11-01 1350 Added mappings for headings, text, lists, class, id
-2025.07.21	013609  added vs to split window
+date        time  action                                               actor                                                             
+=== --- === --- === --- === --- === --- === --- === --- === --- === --- === ---
+2021.07.21  0054  Created project and copied in template               Arlo
+            0105  Added plan and readme, copied in init.vim            Arlo
+2021.10.27  2105  Started filetype specific bindings.                  Arlo
+2021.11.01  1350  Added mappings for headings, text, lists, class, id  Arlo
+2025.07.21	0136  Added vs to split window                             Arlo
+2025.07.22	0454  Added details, fixed li, added timestamps, fixed     Arlo
+                  changelog formatting.

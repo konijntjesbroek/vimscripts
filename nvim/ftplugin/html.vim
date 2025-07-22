@@ -2,7 +2,7 @@
 "== --- === --- === --- === --- === --- === --- === --- === --- === --- === ---
 "   created by: Arlo Gittings
 "   created on: 2021-10-27
-"   updated on: 2025.07.21
+"   updated on: 2025.07.22
 "   description:
 "       html filetype configs
 "== --- === --- === --- === --- === --- === --- === --- === --- === --- === --- 
@@ -20,7 +20,7 @@ inoremap <leader>css <link href='' rel='stylesheet'><esc>?\'\'<cr>:noh<cr>a
 
 " lists
 inoremap <leader>ni <esc>:/<\/li><cr>:noh<cr>o<li><cr></li><esc>ko
-inoremap <leader>li <li><cr></li><esc>ko
+inoremap <leader>li <li></li><esc>4hi
 inoremap <leader>ul <ul><cr></ul><esc>ko
 inoremap <leader>ol <ol><cr></ol><esc>ko
 
@@ -57,3 +57,5 @@ inoremap <leader>a <a href=''></a><esc>5hi
 inoremap <leader>cl class=''<esc>i
 inoremap <leader>id id=''<esc>i
 
+" deails block
+inoremap <leader>det <details><summary></summary><cr></details><esc>k9li
